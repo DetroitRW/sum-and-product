@@ -13,9 +13,8 @@ fun main(args: Array<String>) {
         s += n % 10
         m *= n % 10
         n = n / 10
-        println("Сумма: $s")
-        println("Произведение: $m")
     }
-
-
+    
+    println("Сумма: $s")
+    println("Произведение: $m")
 }
