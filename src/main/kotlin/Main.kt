@@ -9,6 +9,10 @@ fun main(args: Array<String>) {
     var s = 0
     var m = 1
 
+    if (n == 0){
+        m = 0
+    }
+
     while (n > 0) {
         s += n % 10
         m *= n % 10
