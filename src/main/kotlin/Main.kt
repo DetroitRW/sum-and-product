@@ -14,8 +14,9 @@ fun main(args: Array<String>) {
     }
 
     while (n > 0) {
-        s += n % 10
-        m *= n % 10
+        val r = n % 10
+        s += r
+        m *= r
         n = n / 10
     }
 
